@@ -1,0 +1,113 @@
+.app {
+  background: linear-gradient(135deg, #013A59, #013A68);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 35px;
+  font-size: 20px;
+  outline: none;
+  width: 100%;
+  border-top-style: double;
+  border-left-style: double;
+  border-right-style: double;
+  border-bottom-style: 2px solid black;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+input[type="submit"] {
+  display: flex;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight:bolder;
+  border-radius: 8px;
+  color: #013A59;
+  padding: 10px 28px;
+  background: linear-gradient(to right, #F3A712, #F3A712);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+  rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin: auto;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: #fff;
+  min-width: 350px;
+  min-height: 600px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+}
+p{
+  font-family: Helvetica;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #013A59;
+}
+div [type="success"]{
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  margin-top: 100px;
+  min-width: 240px;
+  color: #013A59;
+}
+
+label[type="email"],
+label[type="password"]{
+  color: #969292;
+  font-family: -apple-system, BlinkMacSystemFont,
+   'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+}

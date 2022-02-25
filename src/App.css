@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  background: linear-gradient(135deg, #013A59, #013A68);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+}
+p{
+  font-family: Helvetica;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #013A59;
+}
+.app-wrapper{
+  background-color: #fff;
+  min-width: 350px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.title{
+  color: #013A59;
+  font-family: Helvetica;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+  font-size: 28px;
+}
+.name,
+.email,
+.password{
+  margin: 20px;
+  color: #969292;
+  font-size: 18px;
+}
+
+.password{
+  margin-bottom: 40px;
+}
+.input{
+  height: 35px;
+  font-size: 20px;
+  outline: none;
+  width: 100%;
+  border-top-style: double;
+  border-left-style: double;
+  border-right-style: double;
+  border-bottom-style: 2px solid black;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.error{
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+h2{
+  color:#013A59;
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.submit{
+  display: flex;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight:bolder;
+  border-radius: 8px;
+  color: #013A59;
+  padding: 10px 28px;
+  background: linear-gradient(to right, #F3A712, #F3A712);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+  rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin: auto;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+button:active{
+  transform: translateY(2px);
+}
+
+.form-success{
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  margin-top: 230px;
+  min-width: 320px;
+  color: #013A59;
+}
