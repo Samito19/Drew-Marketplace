@@ -1,0 +1,32 @@
+.home-page__header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #013a59, #013a68);
+
+    padding: 0.5rem 1.5rem;
+    height: 3rem;
+}
+
+.home-page__logo {
+    flex: 1;
+    align-self: center;
+    justify-content: flex-start;
+    font-size: 12px;
+    color: #fff;
+}
+
+
+.home-page__header-options {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.home-page__header-options p{
+    margin: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}

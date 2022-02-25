@@ -1,0 +1,220 @@
+.container {
+  background: linear-gradient(135deg, #013a59, #013a68);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-page__container img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+}
+.login-page__container p {
+  font-family: Helvetica;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #013a59;
+}
+.app-wrapper {
+  background-color: #fff;
+  min-width: 350px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.title {
+  color: #013a59;
+  font-family: Helvetica;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+  font-size: 28px;
+}
+.name,
+.email,
+.password {
+  margin: 20px;
+  color: #969292;
+  font-size: 18px;
+}
+
+.password {
+  margin-bottom: 40px;
+}
+.input {
+  height: 35px;
+  font-size: 20px;
+  outline: none;
+  width: 100%;
+  border-top-style: double;
+  border-left-style: double;
+  border-right-style: double;
+  border-bottom-style: 2px solid black;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.login-page__container h2 {
+  color: #013a59;
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.submit {
+  display: flex;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 8px;
+  color: #013a59;
+  padding: 10px 28px;
+  background: linear-gradient(to right, #f3a712, #f3a712);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin: auto;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.login-page__container button:active {
+  transform: translateY(2px);
+}
+
+.form-success {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  margin-top: 230px;
+  min-width: 320px;
+  color: #013a59;
+}
+
+.login-page__container {
+  background: linear-gradient(135deg, #013a59, #013a68);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-page__container input[type="text"],
+.login-page__container input[type="password"] {
+  height: 35px;
+  font-size: 20px;
+  outline: none;
+  width: 100%;
+  border-top-style: double;
+  border-left-style: double;
+  border-right-style: double;
+  border-bottom-style: 2px solid black;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.login-page__container input[type="submit"] {
+  display: flex;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 8px;
+  color: #013a59;
+  padding: 10px 28px;
+  background: linear-gradient(to right, #f3a712, #f3a712);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin: auto;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: #fff;
+  min-width: 350px;
+  min-height: 600px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+.login-page__container img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+}
+.login-page__container p {
+  font-family: Helvetica;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #013a59;
+}
+.login-page__container div [type="success"] {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  margin-top: 100px;
+  min-width: 240px;
+  color: #013a59;
+}
+
+.login-page__container label[type="email"],
+.login-page__container label[type="password"] {
+  color: #969292;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 20px;
+}

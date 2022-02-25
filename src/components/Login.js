@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 
-import "./styles2.css";
+import './styles/login.css'
 
 function Login() {
   const [errorMessages, setErrorMessages] = useState({});
@@ -69,7 +69,7 @@ function Login() {
   );
 
   return (
-    <div className="app">
+    <div className="login-page__container">
       <div className="login-form">
       <div className="logo">
            <img src={require('./Squirrel-Logz.png')}></img>
