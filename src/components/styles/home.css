@@ -1,32 +1,107 @@
+/*--------------------------------- HEADER STYLING ------------------------------------------------------*/
 .home-page__header-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, #013a59, #013a68);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #013a59, #013a68);
 
-    padding: 0.5rem 1.5rem;
-    height: 3rem;
+  padding: 0.5rem 2rem;
+  height: 3rem;
 }
 
 .home-page__logo {
-    flex: 1;
-    align-self: center;
-    justify-content: flex-start;
-    font-size: 12px;
-    color: #fff;
+  flex: 1;
+  align-self: center;
+  justify-content: flex-start;
+  font-size: 12px;
+  color: #fff;
+  cursor: pointer;
 }
-
 
 .home-page__header-options {
-    display: flex;
-    justify-content: flex-end;
-    justify-content: space-between;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
 }
 
-.home-page__header-options p{
-    margin: 1.5rem;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
+.home-page__header-options p {
+  margin: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.home-page__header-options button {
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+}
+
+.home-page_header-options-button {
+  align-self: center;
+  padding: 0.5rem 1.5rem;
+  margin-left: 1.5rem;
+  background: linear-gradient(to right, #f3a712, #f3a712);
+  align-self: center;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*--------------------------------- BODY STYLING ------------------------------------------------------*/
+
+.home-page__body-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-page__body-categories-container {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  border-radius: 5px;
+  align-content: center;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.home-page__body-categories-title {
+  flex: 1;
+  background: linear-gradient(135deg, #013a59, #013a68);
+  align-items: center;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.home-page__body-categories-title h2 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem;
+}
+
+.home-page__body-categories-choices {
+  flex: 7;
+  list-style: none;
+  justify-content: center;
+
+}
+.home-page__body-categories-choices li {
+  list-style: none;
+  border-bottom: 1px solid #edefe6;
+  border-left: 1px solid #edefe6;
+  border-right: 1px solid #edefe6;
+  text-align: center;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.home-page__body-categories-choices span {
+  text-align: center;
+  cursor: pointer;
 }
