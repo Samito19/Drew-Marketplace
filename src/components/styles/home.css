@@ -10,7 +10,7 @@
   height: 3rem;
 }
 
-.home-page__logo {
+.home-page__header-logo {
   flex: 1;
   align-self: center;
   justify-content: flex-start;
@@ -54,12 +54,15 @@
 .home-page__body-container {
   display: flex;
   flex-direction: row;
+  background: #f0f2f5;
+  height: 44rem;
 }
 
 .home-page__body-categories-container {
   display: flex;
   flex-direction: column;
   width: 18rem;
+  height: 30rem;
   margin-left: 2rem;
   margin-top: 3rem;
   border-radius: 5px;
@@ -104,4 +107,92 @@
 .home-page__body-categories-choices span {
   text-align: center;
   cursor: pointer;
+}
+
+.home-page__body-searchbar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  width: 46rem;
+  height: 3rem;
+  margin-left: 2rem;
+  background: #013a68;
+  border-radius: 5px;
+  border: 2px solid #013a68;
+  overflow: hidden;
+}
+
+.home-page__body-searchbar input{
+  width: 42.5rem;
+  outline: none;
+  border: none;
+  text-indent: 1rem;
+  font-size: 18px;
+}
+
+.home-page__body-searchbar-icon {
+  display: flex;
+  width: 3.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page__body-searchbar-icon-logo {
+  color: #fff;
+}
+
+.home-page__body-featured-container {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  height: 30rem;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  border-radius: 5px;
+  align-content: center;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.home-page__body-featured-title {
+  flex: 1;
+  background: linear-gradient(135deg, #013a59, #013a68);
+  align-items: center;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.home-page__body-featured-title h2 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem;
+}
+.home-page__body-featured-features {
+  flex: 7;
+  list-style: none;
+  justify-content: center;
+
+}
+
+/*--------------------------------- FOOTER STYLING ------------------------------------------------------*/
+
+.home-page__footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #013a59, #013a68);
+
+  height: 7%
+
+}
+
+.home-page__footer-rigths h1{
+ text-align: center;
+ font-weight: 400;
+ font-size: 15px;
+ color: #fff;
 }
