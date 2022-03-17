@@ -1,26 +1,20 @@
 import React from "react";
 import "./styles/home.css";
-import {AiOutlineSearch} from 'react-icons/ai'
+import { AiOutlineSearch } from "react-icons/ai";
 const Home = () => {
-
-  const renderHeader = () => {
-    return (
+  return (
+    <div className="home-page__body">
       <div className="home-page__header-container">
         <div className="home-page__header-logo">
           <h1>The Drew Marketplace</h1>
         </div>
         <div className="home-page__header-options">
           <p>Buy</p>
-          <p>Sell</p>
+          <p>Sell</p>   
           <p>Trade</p>
-          <button  className="home-page_header-options-button">Log in</button>
+          <button className="home-page_header-options-button">Log in</button>
         </div>
       </div>
-    );
-  };
-
-  const renderHomePageBody = () => {
-    return (
       <div className="home-page__body-container">
         <div className="home-page__body-categories-container">
           <div className="home-page__body-categories-title">
@@ -40,45 +34,32 @@ const Home = () => {
               <span>Furniture</span>
             </li>
             <li>
-              <span>
-                Accessoriess
-              </span>
+              <span>Accessoriess</span>
             </li>
           </ul>
         </div>
         <div className="home-page__body-searchbar">
-          <input placeholder="Search" type="text"/>
-          <div className="home-page__body-searchbar-icon">  
-            <AiOutlineSearch size={30} className="home-page__body-searchbar-icon-logo"/>
+          <input placeholder="Search" type="text" />
+          <div className="home-page__body-searchbar-icon">
+            <AiOutlineSearch
+              size={30}
+              className="home-page__body-searchbar-icon-logo"
+            />
           </div>
         </div>
         <div className="home-page__body-featured-container">
           <div className="home-page__body-featured-title">
             <h2>Featured</h2>
           </div>
-          <div className="home-page__body-featured-features">
-
-          </div>
+          <div className="home-page__body-featured-features"></div>
         </div>
       </div>
-    );
-  };
-
-  const renderFooter = () => {
-    return (
       <div className="home-page__footer-container">
         <div className="home-page__footer-rigths">
           <h1>Copyright © 2020 The Drew Marketplace | All rights reserved.</h1>
         </div>
       </div>
-    );
-  };
-  return (
-    <>
-      {renderHeader()}
-      {renderHomePageBody()}
-      {renderFooter()}
-    </>
+    </div>
   );
 };
 
