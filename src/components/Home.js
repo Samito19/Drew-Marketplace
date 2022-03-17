@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/home.css";
 import { AiOutlineSearch } from "react-icons/ai";
+import {BsPersonCircle} from "react-icons/bs"
 const Home = () => {
   return (
     <div className="home-page__body">
@@ -12,7 +13,7 @@ const Home = () => {
           <p>Buy</p>
           <p>Sell</p>   
           <p>Trade</p>
-          <button className="home-page_header-options-button">Log in</button>
+          <BsPersonCircle size={30} className="home-page_header-options-avatar"/>
         </div>
       </div>
       <div className="home-page__body-container">
