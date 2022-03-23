@@ -13,7 +13,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/login" exact component={Login} />
+        <Route index component={Login} />
         <Route path="/form" exact component={Form} />
         <Route path="/home" exact component={Home} />
       </Switch>

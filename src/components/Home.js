@@ -35,7 +35,7 @@ const Home = () => {
               <span>Furniture</span>
             </li>
             <li>
-              <span>Accessoriess</span>
+              <span>Accessories</span>
             </li>
           </ul>
         </div>
