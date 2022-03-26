@@ -6,5 +6,4 @@
 body > #root > div {
   height: 100vh;
   overflow: hidden;
-  text-align: -webkit-center;
 }
