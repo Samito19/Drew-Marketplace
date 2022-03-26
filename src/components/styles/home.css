@@ -202,6 +202,7 @@
   margin-top: 3.9rem;
   font-size: larger;
   color: #0c642a;
+  font-size: 1vw;
 }
 
 .home-page__body-featured-features-img {
@@ -220,23 +221,18 @@
 
 .home-page__body-featured-features-description h4{
   align-self: flex-start;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
+  font-size: 1vw;
 }
 
 .home-page__body-featured-features-description span{
-  margin-left: 2rem;
-}
-
-.home-page__body-featured-features-description span{
+  margin-left: 4%;
+  font-size: 1vw;
   align-self: center;
 }
 
-.home-page__body-featured-features-description h5{
-  align-self: flex-end;
-  margin-top: 0.5rem;
-  font-size: larger;
-  color: #0c642a;
-}
+
+
 
 /*--------------------------------- FOOTER STYLING ------------------------------------------------------*/
 
