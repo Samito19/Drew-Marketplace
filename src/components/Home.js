@@ -102,7 +102,7 @@ const Home = () => {
                 />
                 <div className="home-page__body-featured-features-description">
                   <h4>Macbook Pro</h4>
-                  <span>Macbook Pro 15" i5 8gb (Used) </span>
+                  <span>Macbook Pro 15" i5 8gb</span>
                 </div>
                 <h5>800 $</h5>
               </li>
@@ -113,7 +113,7 @@ const Home = () => {
                 />
                 <div className="home-page__body-featured-features-description">
                   <h4>Gaming portable computer</h4>
-                  <span>MSI-Gaming 10EX (Used) </span>
+                  <span>MSI-Gaming 10EX </span>
                 </div>
                 <h5>800 $</h5>
               </li>

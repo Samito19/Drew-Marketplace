@@ -197,18 +197,17 @@
 }
 
 .home-page__body-featured-features h5 {
-  position: absolute;
   right: 7rem;
-  margin-top: 3.9rem;
+  margin-top: 4rem;
   font-size: larger;
   color: #0c642a;
-  font-size: 1vw;
+  font-size: 0.9vw;
 }
 
 .home-page__body-featured-features-img {
   height: 65%;
   width: 25%;
-  margin-left: 3%;
+  margin-left: 4%;
   position: relative;
 }
 
@@ -217,17 +216,18 @@
   flex-direction: column;
   margin-top: 1rem;
   align-items: center;
+  width: 55%;
 }
 
 .home-page__body-featured-features-description h4{
   align-self: flex-start;
   margin-left: 0.5rem;
-  font-size: 1vw;
+  font-size: 0.9vw;
 }
 
 .home-page__body-featured-features-description span{
   margin-left: 4%;
-  font-size: 1vw;
+  font-size: 0.8vw;
   align-self: center;
 }
 
