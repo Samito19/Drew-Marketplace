@@ -218,3 +218,10 @@
   -webkit-font-smoothing: antialiased;
   font-size: 20px;
 }
+
+.google-sign-in{
+  display: flex;
+  margin-top: 10rem;
+  align-items: center;
+  justify-content: center;
+}

@@ -49,7 +49,7 @@ function Login() {
         <br></br>
         <p>DrewU Marketplace</p>
         <div className="title">Sign In</div>
-        <div>
+        <div className="google-sign-in">
         {loginData ? (
             <div>
               <h3>You logged in as {loginData.email}</h3>
