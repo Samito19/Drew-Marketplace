@@ -6,8 +6,20 @@ import computerImg from "../assets/pw5jy11vn8u0jbi3rdu3aq1ij4bl15411237.png";
 import iphoneImg from "../assets/apple-iphone-x-pictures-5.png";
 import appleWatch from "../assets/apple_watch.png";
 import macPro from "../assets/macbook_pro.png";
+import { useQuery } from "react-query";
+import axios from "axios";
 
 const Home = () => {
+
+  const {isLoading, error, data} = useQuery("features", () =>  axios("http://10.30.20.162:5000/api/get-featured"))
+
+
+  if (error) return <h1>Error !</h1>
+  if (isLoading) return <h1>Loading...</h1>
+  console.log(data.data[0].name)
+
+
+
   return (
     <div className="home-page__body">
       <div className="home-page__header-container">
@@ -15,7 +27,7 @@ const Home = () => {
           <h1>The Drew Marketplace</h1>
         </div>
         <div className="home-page__header-options">
-          <p>Buy</p>
+          <p className="home-page__header-options-buy-indicator">Buy</p>
           <p>Sell</p>
           <p>Trade</p>
           <BsPersonCircle
@@ -68,10 +80,10 @@ const Home = () => {
                   className="home-page__body-featured-features-img"
                 />
                 <div className="home-page__body-featured-features-description">
-                  <h4>Gaming portable computer</h4>
-                  <span>MSI-Gaming 10EX (Used) </span>
+                  <h4>{data.data[0].name}</h4>
+                  <span>{data.data[0].description}</span>
                 </div>
-                <h5>800 $</h5>
+                <h5>{data.data[0].price} $</h5>
               </li>
               <li>
                 <img
@@ -79,10 +91,10 @@ const Home = () => {
                   className="home-page__body-featured-features-img"
                 />
                 <div className="home-page__body-featured-features-description">
-                  <h4>Iphone X</h4>
-                  <span>Iphone 10 256gb</span>
+                <h4>{data.data[1].name}</h4>
+                  <span>{data.data[1].description}</span>
                 </div>
-                <h5>400 $</h5>
+                <h5>{data.data[1].price} $</h5>
               </li>
               <li>
                 <img
@@ -90,10 +102,10 @@ const Home = () => {
                   className="home-page__body-featured-features-img"
                 />
                 <div className="home-page__body-featured-features-description">
-                  <h4>Apple Watch</h4>
-                  <span>Apple Watch Series 3 (Used) </span>
+                <h4>{data.data[2].name}</h4>
+                  <span>{data.data[2].description}</span>
                 </div>
-                <h5>800 $</h5>
+                <h5>{data.data[2].price} $</h5>
               </li>
               <li>
                 <img
@@ -101,10 +113,10 @@ const Home = () => {
                   className="home-page__body-featured-features-img"
                 />
                 <div className="home-page__body-featured-features-description">
-                  <h4>Macbook Pro</h4>
-                  <span>Macbook Pro 15" i5 8gb</span>
+                <h4>{data.data[3].name}</h4>
+                  <span>{data.data[3].description}</span>
                 </div>
-                <h5>800 $</h5>
+                <h5>{data.data[3].price} $</h5>
               </li>
               <li>
                 <img
@@ -112,10 +124,10 @@ const Home = () => {
                   className="home-page__body-featured-features-img"
                 />
                 <div className="home-page__body-featured-features-description">
-                  <h4>Gaming portable computer</h4>
-                  <span>MSI-Gaming 10EX </span>
+                <h4>{data.data[4].name}</h4>
+                  <span>{data.data[4].description}</span>
                 </div>
-                <h5>800 $</h5>
+                <h5>{data.data[4].price} $</h5>
               </li>
             </ul>
           </div>

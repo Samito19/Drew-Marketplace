@@ -36,6 +36,11 @@
   cursor: pointer;
 }
 
+.home-page__header-options-buy-indicator {
+  text-decoration: solid;
+  text-decoration: underline;
+}
+
 .home-page_header-options-avatar {
   align-self: center;
   margin-left: 1.5rem;
@@ -197,11 +202,11 @@
 }
 
 .home-page__body-featured-features h5 {
-  right: 7rem;
   margin-top: 4rem;
-  font-size: larger;
   color: #0c642a;
-  font-size: 0.9vw;
+  font-size: 0.8vw;
+  margin-left: -2%;
+  width: 22%;
 }
 
 .home-page__body-featured-features-img {
