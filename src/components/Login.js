@@ -26,10 +26,7 @@ function Login() {
       },
     });
 
-    alert('1')
-    console.log(res)
     const data = await res.json();
-    alert('2')
     setLoginData(data);
     localStorage.setItem('loginData', JSON.stringify(data));
   };

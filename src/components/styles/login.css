@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .login-page__container img {
   display: flex;
   align-items: center;
@@ -30,6 +31,7 @@
   padding: 30px;
   box-sizing: border-box;
   border-radius: 25px;
+  
 }
 
 .title {

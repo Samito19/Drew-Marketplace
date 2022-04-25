@@ -7,7 +7,7 @@ import {
   Route,
   Switch,
 } from "react-router-dom/cjs/react-router-dom.min";
-import Home from "./components/Home";
+import Buy from "./components/Buy";
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
       <Switch>
       <Route path="/login" exact component={Login} />
         <Route path="/form" exact component={Form} />
-        <Route path="/home" exact component={Home} />
+        <Route path="/buy" exact component={Buy} />
       </Switch>
     </Router>
   );

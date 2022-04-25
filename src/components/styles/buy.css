@@ -8,7 +8,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #013a59, #013a68);
+  background: #013a59;
 
   padding: 0 2rem;
   height: 7%;
@@ -27,6 +27,9 @@
   display: flex;
   justify-content: flex-end;
   justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .home-page__header-options p {
@@ -37,13 +40,52 @@
 }
 
 .home-page__header-options-buy-indicator {
-  text-decoration: solid;
-  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  height: 60%;
+  width: 3rem;
+  text-align: center;
+  justify-content:center ;
+
+  margin: 1rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  border-bottom: 2px solid #fff;
 }
+
+.home-page__header-options-sell {
+  display: flex;
+  align-items: center;
+  height: 60%;
+  width: 3rem;
+  text-align: center;
+  justify-content:center ;
+
+  margin: 1rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.home-page__header-options-trade {
+  display: flex;
+  align-items: center;
+  height: 60%;
+  width: 3rem;
+  text-align: center;
+  justify-content:center ;
+
+  margin: 1rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
 
 .home-page_header-options-avatar {
   align-self: center;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   align-self: center;
   color: #f3a712;
   cursor: pointer;
@@ -74,7 +116,7 @@
 
 .home-page__body-categories-title {
   flex: 1;
-  background: linear-gradient(135deg, #013a59, #013a68);
+  background-color: #013a59;
   align-items: center;
   width: 100%;
   border-top-left-radius: 5px;
@@ -115,13 +157,20 @@
   cursor: pointer;
 }
 
+.home-page__body-searchbar-results-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 4rem;
+  margin-top: 3rem;
+  height: 45rem;
+}
+
 .home-page__body-searchbar {
   display: flex;
   flex-direction: row;
-  margin-top: 3rem;
-  width: 50%;
+  width: 100%;
   height: 3rem;
-  margin-left: 2rem;
   background: #013a68;
   border-radius: 5px;
   border: 2px solid #013a68;
@@ -148,12 +197,87 @@
   color: #fff;
 }
 
+.home-page__body-results-container {
+  margin-top: 3rem;
+  background-color: #fff;
+  height: 80%;
+  width: 100%;
+  border-radius: 5px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.home-page__body-results-no-result {
+  font-size: 30px;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.home-page__body-results-container li {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  border-bottom: 1px solid #edefe6;
+  border-left: 1px solid #edefe6;
+  border-right: 1px solid #edefe6;
+  height: 20%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.home-page__body-results-container img {
+  align-self: center;
+}
+
+.home-page__body-results-container h5 {
+  margin-top: 4rem;
+  color: #0c642a;
+  font-size: 0.8vw;
+  margin-left: -2%;
+  width: 22%;
+}
+
+.home-page__body-results-container-img {
+  height: 45%;
+  width: 15%;
+  margin-left: 4%;
+  position: relative;
+}
+
+.home-page__body-results-container-description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-left: 10%;
+  align-items: center;
+  width: 55%;
+}
+
+.home-page__body-results-container-description h4{
+  align-self: flex-start;
+  margin-left: 0.5rem;
+  font-size: 0.9vw;
+}
+
+.home-page__body-results-container h5 {
+  margin-top: 4rem;
+  color: #0c642a;
+  font-size: 1vw;
+  margin-left: 2%;
+  width: 22%;
+}
+.home-page__body-results-container-description span{
+  margin-left: 4%;
+  font-size: 0.8vw;
+  align-self: center;
+}
+
+
 .home-page__body-featured-container {
   display: flex;
   flex-direction: column;
   width: 20%;
   height: 70%;
-  margin-left: 2rem;
   margin-top: 3rem;
   border-radius: 5px;
   align-content: center;
@@ -163,7 +287,7 @@
 
 .home-page__body-featured-title {
   flex: 1;
-  background: linear-gradient(135deg, #013a59, #013a68);
+  background-color: #013a59;   
   align-items: center;
   width: 100%;
   border-top-left-radius: 5px;
@@ -245,7 +369,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background: linear-gradient(135deg, #013a59, #013a68);
+  background: #013a59;
   align-items: center;
   height: 3%;
 }
